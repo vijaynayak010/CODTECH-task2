@@ -1,11 +1,11 @@
-Name :Amgothu Vijaynayak
-Company : CODTECH IT SOLUTIONS
-ID :CT08DS7955
-Domain : FRONTEND WEB DEEVELOPMENT
-Duration: Sep to oct 2024
-Mentor : Neela Santhosh
-
-Overview of the Project
+Name :Amgothu Vijaynayak                                                        
+Company : CODTECH IT SOLUTIONS                                                  
+ID :CT08DS7955                                                            
+Domain : FRONTEND WEB DEEVELOPMENT                                                
+Duration: Sep to oct 2024                                                  
+Mentor : Neela Santhosh                                                              
+  
+Overview of the Project                                                    
 
 Project :RECIPE FINDER APPLICATION
 
