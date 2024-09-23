@@ -1,0 +1,148 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and style for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Style the ingredient input and button */
+.ingredient-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#ingredient {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-ingredient {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#add-ingredient:hover {
+    background-color: #0056b3;
+}
+
+/* Style the ingredient list */
+#ingredient-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#ingredient-list li {
+    background-color: #e0e0e0;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Style the search button */
+#search-recipes {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#search-recipes:hover {
+    background-color: #27ae60;
+}
+
+/* Style the recipe results */
+#recipe-results {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.recipe-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.recipe-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-card ul li {
+    margin: 5px 0;
+}
+#home {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#home:hover {
+    background-color: #0056b3;
+}
+/* Style for the delete button */
+button.delete-button {
+    background-color: #f44336; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px; /* Add some spacing between the ingredient and delete button */
+    float: right; /* Float the delete button to the right */
+}
+
+/* Style for the delete button on hover */
+button.delete-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
